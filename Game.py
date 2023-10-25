@@ -9,6 +9,7 @@ class Game:
         self.window = pygame.display.set_mode((BOARD_WIDTH * BLOCK_SIZE, BOARD_HEIGHT * BLOCK_SIZE))
         self.running = True
         self.tetris = Tetris(self)
+        self.tetris.new_tetromino()
 
     def update(self):
         for event in pygame.event.get():

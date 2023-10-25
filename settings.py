@@ -5,7 +5,7 @@ BLOCK_SIZE = 30
 BACKGROUND_COLOR = (102, 178, 255)
 
 TETROMINOS = {
-    'I': [1, 1, 1, 1],
+    'I': [[1, 1, 1, 1]],
 
     'J': [[0, 0, 1],
           [0, 0, 1],
